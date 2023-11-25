@@ -54,7 +54,7 @@ def get_file_hash(file_path):
 # GUI logic
 
 def update_progress_label(total, current):
-    return f"Current Progress: {int((current / total) * 100)}% , \n        Deleted {current} files"
+    return f"Current Progress: {int((current / total) * 100)}%"
 
 
 def progress(total, current):
